@@ -100,7 +100,7 @@ body{
 .one .color1{
     background-color:white;
     color: black;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 25px;
 }
 
@@ -183,16 +183,17 @@ body{
     margin:  auto 0 auto auto;
 
     /* DEBUG */
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .title2{
-    height: 100%;
+    height: 70%;
     width: 60%;
     font-size: 20px;
+    padding-top: 60px;
     
     /* DEBUG */
-    background-color: orange;
+    /* background-color: orange; */
 }
 
 .para2{
@@ -201,9 +202,8 @@ body{
     color: black;
     font-size: 20px;
     
-    
     /* DEBUG */
-    background-color: green;
+    /* background-color: green; */
 }
 
 .right2{
@@ -216,7 +216,7 @@ body{
     margin: auto auto auto 0;
 
     /* DEBUG */
-    background-color: red;
+    /* background-color: red; */
 }
 
 /* Main Section 3 */
@@ -254,9 +254,10 @@ body{
 }
 
 .title3{
-    height: 100%;
+    height: 70%;
     width: 60%;
     font-size: 20px;
+    padding-top: 60px;
     
     /* DEBUG */
     /* background-color: orange; */
@@ -268,7 +269,6 @@ body{
     color: black;
     font-size: 20px;
     
-    
     /* DEBUG */
     /* background-color: green; */
 }
@@ -279,11 +279,11 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 400px;
+    height: 1000px;
 
 
     /* DEBUG */
-    background-color: blue;
+    background-color: lightgrey;
     /* margin-bottom: 1px; */
 }
 
@@ -291,84 +291,96 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100px;
+    height: 200px;
     width: 60%;
     margin: 10px auto 0 auto;
 
     /* DEBUG */
-    background-color:red;
+    /* background-color:red; */
 }
 
 .title4{
-    height: 25px;
-    width: 30%;
+    height: 50px;
+    width: 100%;
     margin: 0px auto;
+    font-size: 20px;
     
 
     /* DEBUG */
-    background-color:yellow;
-    color: red;
+    /* background-color:yellow; */
+    color: black;
     text-align: center;
-    line-height: 25px;
+    line-height: 50px;
 }
 
 .para4{
-    height: 25px;
-    width: 30%;
-    margin: 1px auto;
+    height: 50px;
+    width: 85%;
+    margin: 30px auto 0 auto;
 
     /* DEBUG */
-    background-color:yellow;
-    color: red;
+    /* background-color:yellow; */
+    color: black;
     text-align: center;
-    line-height: 25px;
 }
 
 .middle{
-    height: 100px;
+    background-image: url(../img/item4-big.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
     width: 60%;
     margin: 0px auto;
 
     /* DEBUG */
-    background-color:yellow;
-    color: red;
+    /* background-color:yellow; */
+    /* color: red; */
     text-align: center;
-    line-height: 100px;
 }
 
 #flex-bottom{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100px;
+    height: 200px;
     width: 60%;
     margin: 0px auto 10px auto;
 
     /* DEBUG */
-    background-color:green;
+    /* background-color:green; */
 }
 
 .title5{
-    height: 25px;
-    width: 30%;
-    margin: 1px auto;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding-top: 35px;
+    
+    height: 50px;
+    width: 60%;
+    margin: auto;
+    color: black;
+    font-size: 25px;
 
     /* DEBUG */
-    background-color:yellow;
-    color: red;
+    /* background-color:yellow; */
     text-align: center;
-    line-height: 25px;
 }
 
 .bottom-button{
+    
+    background-color: #235ce8;
     height: auto;
-    width: 30%;
-    margin: 1px auto;
-
-    /* DEBUG */
-    color: red;
+    width: 20%;
+    margin: auto;
     text-align: center;
     line-height: 50px;
+    text-decoration: none;
+    border-radius: 50px;
+
+
+    /* DEBUG */
+    color: white;
     text-decoration: none;
 }
 
@@ -388,14 +400,12 @@ body{
 #flex-footer1{
     display: flex;
     justify-content: flex-start;
-    height: 80%;
-    width: 80%;
     margin: auto;
+    height: 80%;
+    width: 85%;
 
     /* DEBUG */
-    background-color: red;
-    height: 80%;
-    width: 80%;
+    /* background-color: red; */
     /* margin-bottom: 1px; */
 }
 
@@ -404,7 +414,6 @@ body{
 .left-column{
     /* DEBUG */
      background-color: green;
-     margin-bottom: 1px;
      height: 100%;
      width: 20%;
 }
@@ -412,9 +421,8 @@ body{
 .title6{
     /* DEBUG */
      background-color: red;
-     margin-bottom: 1px;
      color: white;
-     line-height: 50px;
+     padding: 10px;
 }
 
 /* List 1 */
@@ -471,19 +479,15 @@ li{
     display: flex;
     justify-content: center;
     height: 100px;
-    
-    /* DEBUG */
-    background-color: black;
+    background-color: black
 }
 
 .footer-bottom{
     display: flex;
     justify-content: space-between;
     height: 50px;
-    width: 80%;
+    width: 85%;
     border-top: 1px solid white;
-
-    /* DEBUG */
     background-color: black;
 }
 
