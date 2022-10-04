@@ -15,15 +15,16 @@ body{
     align-items: center;
     flex-wrap: wrap;
     background-color: #235ce8;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
-#logo{
+#logo .discord{
     background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
     max-width: 100%;
     color: white;
-    padding-bottom: 30px;
+    margin:30px;
+    line-height: 30px;
 }
 
 .flex-nav-list{
@@ -398,7 +399,7 @@ body{
 
 img{
     height: 20px;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 .title6{
