@@ -5,7 +5,6 @@
 }
 
 body{
-    
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -15,17 +14,16 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    height: 60px;
     background-color: #235ce8;
+    padding-top: 10px;
 }
 
-#flex-nav #logo{
+#logo{
     background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
-    height:50%;
-    width: 125px;
+    max-width: 100%;
     color: white;
-    line-height: 100%;
+    padding-bottom: 30px;
 }
 
 .flex-nav-list{
@@ -44,8 +42,6 @@ body{
     color: black;
     padding: 10px;
     border-radius: 25px;
-    
-
 }
 
 /* Header Rules */
@@ -55,32 +51,32 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    max-width:100%;
     background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom:200px;
 }
 
 .header-title{
-    height: 100px;
     width: 50%;
     font-size: 30px;
     text-align: center;
-    line-height: 100px;
-    padding-left: 50px;
+    /* line-height: 100px; */
     color: white;
+    margin-top:100px;
 
     /* DEBUG */
     /* background-color: red; */
 }
 
 .header-p{
-    height: 100px;
     width: 50%;
     font-size: 20px;
     text-align: center;
     contain: content;
     color: white;
-    padding-left: 30px;
+    margin:30px auto;
     
     /* DEBUG */
     /* background-color: yellow; */
@@ -90,8 +86,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 60px;
-    margin-top: 25px;
 }
 
 #flex-header-button a{
@@ -117,7 +111,7 @@ body{
 
 #flex-block1{
     display: flex;
-    height: 420px;
+    margin-bottom: 25px;
 
     /* DEBUG */
     background-color: white;
@@ -126,11 +120,10 @@ body{
 .left1{
     background-image: url(../img/item1.svg);
     background-repeat: no-repeat;
-    background-size: contain;
     background-color: rgba(0, 0, 0, 0,1);
-    height: 350px;
+    max-width: 100%;
     width: 40%;
-    margin: auto 0 auto auto;
+    margin: 0 50px 0 auto;
 
     /* DEBUG */
     /* background-color: red; */
@@ -139,7 +132,6 @@ body{
 #flex-right1{
     display: flex;
     flex-direction: column;
-    height: 350px;
     width: 30%;
     margin: 35px auto 10px 0;
 
@@ -148,16 +140,15 @@ body{
 }
 
 .title1{
-    height: 100%;
     width: 60%;
     font-size: 20px;
+    padding-bottom: 25px;
     
     /* DEBUG */
     /* background-color: orange; */
 }
 
 .para1{
-    height:100%;
     width: 80%;
     color: black;
     font-size: 20px;
@@ -171,7 +162,6 @@ body{
 
 #flex-block2{
     display: flex;
-    height: 420px;
 
     /* DEBUG */
     background-color: lightgrey;
@@ -180,42 +170,40 @@ body{
 #flex-left2{
     display: flex;
     flex-direction: column;
-    height: 350px;
-    width: 30%;
-    margin:  auto 0 auto auto;
+    width: 40%;
+    margin:  25px 0 150px 60px;
 
     /* DEBUG */
     /* background-color: yellow; */
 }
 
 .title2{
-    height: 70%;
-    width: 60%;
+    width: 70%;
     font-size: 20px;
-    padding-top: 60px;
+    padding: 60px 0 30px 0;
+    margin-left: 150px;
     
     /* DEBUG */
     /* background-color: orange; */
 }
 
 .para2{
-    height:100%;
-    width: 80%;
+    width: 70%;
     color: black;
     font-size: 20px;
+    margin-left: 150px;
     
     /* DEBUG */
     /* background-color: green; */
 }
 
 .right2{
-    background-image: url(../img/item2.svg);
+    background-image: url(../img/item1.svg);
     background-repeat: no-repeat;
-    background-size: contain;
     background-color: rgba(0, 0, 0, 0,1);
-    height: 350px;
-    width: 40%;
-    margin: auto auto auto 0;
+    max-width: 100%;
+    width: 50%;
+    margin: 0 200px 0 0;
 
     /* DEBUG */
     /* background-color: red; */
@@ -225,7 +213,6 @@ body{
 
 #flex-block3{
     display: flex;
-    height: 420px;
 
     /* DEBUG */
     background-color: white;
@@ -234,11 +221,10 @@ body{
 .left3{
     background-image: url(../img/item3.svg);
     background-repeat: no-repeat;
-    background-size: contain;
     background-color: rgba(0, 0, 0, 0,1);
-    height: 350px;
+    max-width: 100%;
     width: 40%;
-    margin: auto 0 auto auto;
+    margin: 0 50px 0 auto;
 
     /* DEBUG */
     /* background-color: red; */
@@ -247,26 +233,23 @@ body{
 #flex-right3{
     display: flex;
     flex-direction: column;
-    height: 350px;
     width: 30%;
-    margin: 35px auto 10px 0;
+    margin: 50px auto 100px 0;
 
     /* DEBUG */
     /* background-color: yellow; */
 }
 
 .title3{
-    height: 70%;
     width: 60%;
     font-size: 20px;
-    padding-top: 60px;
+    padding: 60px 0 30px 0;
     
     /* DEBUG */
     /* background-color: orange; */
 }
 
 .para3{
-    height:100%;
     width: 80%;
     color: black;
     font-size: 20px;
@@ -281,7 +264,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 1000px;
 
 
     /* DEBUG */
@@ -293,21 +275,18 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 200px;
     width: 60%;
-    margin: 10px auto 0 auto;
+    margin: 50px auto 0 auto;
 
     /* DEBUG */
     /* background-color:red; */
 }
 
 .title4{
-    height: 50px;
     width: 100%;
     margin: 0px auto;
     font-size: 20px;
     
-
     /* DEBUG */
     /* background-color:yellow; */
     color: black;
@@ -316,7 +295,6 @@ body{
 }
 
 .para4{
-    height: 50px;
     width: 85%;
     margin: 30px auto 0 auto;
 
@@ -332,21 +310,19 @@ body{
     background-size: cover;
     height: 500px;
     width: 60%;
-    margin: 0px auto;
+    margin: auto;
 
     /* DEBUG */
     /* background-color:yellow; */
     /* color: red; */
-    text-align: center;
 }
 
 #flex-bottom{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 200px;
     width: 60%;
-    margin: 0px auto 10px auto;
+    margin: 0 auto 50px auto;
 
     /* DEBUG */
     /* background-color:green; */
@@ -356,9 +332,7 @@ body{
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-size:contain;
-    padding-top: 35px;
-    
-    height: 50px;
+    padding: 30px;
     width: 60%;
     margin: auto;
     color: black;
@@ -370,9 +344,7 @@ body{
 }
 
 .bottom-button{
-    
     background-color: #235ce8;
-    height: auto;
     width: 20%;
     margin: auto;
     text-align: center;
@@ -391,9 +363,7 @@ body{
 #footer-top{
     display: flex;
     justify-content: center;
-    height: 350px;
-    /* margin: 1px; */
-
+    padding-top: 30px;
 
     /* DEBUG */
     background-color: black
@@ -403,7 +373,6 @@ body{
     display: flex;
     justify-content: flex-start;
     margin: auto;
-    height: 80%;
     width: 85%;
 
     /* DEBUG */
@@ -414,12 +383,11 @@ body{
 /* Left Column*/
 
 .left-column{
-    height: 100%;
-     width: 20%;
-     color:#235ce8;
+    width: 20%;
+    color:#235ce8;
 
     /* DEBUG */
-     /* background-color: green; */
+    /* background-color: green; */
 }
 
 .left-column span{
@@ -431,7 +399,6 @@ body{
 img{
     height: 20px;
     padding-left: 10px;
-
 }
 
 .title6{
@@ -463,8 +430,8 @@ img{
     padding: 10px 20px;
     list-style-type: none;
 
-     /* DEBUG */
-     /* background-color: yellow; */
+    /* DEBUG */
+    /* background-color: yellow; */
 }
 
 li{
@@ -510,17 +477,17 @@ li{
 #flex-footer2{
     display: flex;
     justify-content: center;
-    height: 100px;
-    background-color: black
+    background-color: black;
+    padding-top:20px;
 }
 
 .footer-bottom{
     display: flex;
     justify-content: space-between;
-    height: 50px;
     width: 85%;
     border-top: 1px solid white;
     background-color: black;
+    padding-bottom: 20px;
 }
 
 a{
