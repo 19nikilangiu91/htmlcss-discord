@@ -15,16 +15,17 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    height: 50px;
-
-    /* DEBUG */
-    background-color: blue;
-    /* margin-bottom: 1px; */
+    height: 60px;
+    background-color: #235ce8;
 }
 
-#flex-nav a{
-    text-decoration: none;
+#flex-nav #logo{
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    height:50%;
+    width: 125px;
     color: white;
+    line-height: 100%;
 }
 
 .flex-nav-list{
@@ -38,6 +39,15 @@ body{
     color: white;
 }
 
+.accedi{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 25px;
+    
+
+}
+
 /* Header Rules */
 
 #flex-header{
@@ -45,55 +55,60 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 450px;
-
-
-    /* DEBUG */
-    background-color: blue;
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     color: white;
-    /* margin-bottom: 25px; */
 }
 
 .header-title{
     height: 100px;
     width: 50%;
-    font-size: 20px;
-
-    /* DEBUG */
-    background-color: red;
+    font-size: 30px;
     text-align: center;
     line-height: 100px;
+    padding-left: 50px;
+
+    /* DEBUG */
+    /* background-color: red; */
 }
 
 .header-p{
     height: 100px;
     width: 50%;
     font-size: 20px;
-
-    /* DEBUG */
-    background-color: yellow;
-    color: green;
     text-align: center;
-    line-height: 100px;
+    color: white;
+    padding-left: 30px;
+    
+    /* DEBUG */
+    /* background-color: yellow; */
 }
 
 #flex-header-button{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    width: 50%;
-
-    /* DEBUG */
-    background-color: green;
+    padding-left: 60px;
 }
 
 #flex-header-button a{
     text-decoration: none;
-
-    /* DEBUG */
-    color: white;
     margin: 50px;
+}
+
+.one .color1{
+    background-color:white;
+    color: black;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.two .color2{
+    background-color:black;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
 }
 
 /* Main Section 1 */
