@@ -1,0 +1,507 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* DEBUG */
+    background-color: brown;
+}
+
+/* Nav Rules */
+#flex-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50px;
+
+    /* DEBUG */
+    background-color: blue;
+    /* margin-bottom: 1px; */
+}
+
+#flex-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.flex-nav-list{
+    display: flex;
+    justify-content: space-around;
+    min-width: 500px;
+}
+
+.flex-nav-list li{
+    list-style-type: none;
+    color: white;
+}
+
+/* Header Rules */
+
+#flex-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+
+
+    /* DEBUG */
+    background-color: blue;
+    color: white;
+    /* margin-bottom: 25px; */
+}
+
+.header-title{
+    height: 100px;
+    width: 50%;
+    font-size: 20px;
+
+    /* DEBUG */
+    background-color: red;
+    text-align: center;
+    line-height: 100px;
+}
+
+.header-p{
+    height: 100px;
+    width: 50%;
+    font-size: 20px;
+
+    /* DEBUG */
+    background-color: yellow;
+    color: green;
+    text-align: center;
+    line-height: 100px;
+}
+
+#flex-header-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 50%;
+
+    /* DEBUG */
+    background-color: green;
+}
+
+#flex-header-button a{
+    text-decoration: none;
+
+    /* DEBUG */
+    color: white;
+    margin: 50px;
+}
+
+/* Main Section 1 */
+
+#flex-block1{
+    display: flex;
+    height: 420px;
+
+    /* DEBUG */
+    background-color: blue;
+    /* margin-bottom: 1px; */
+}
+
+.left1{
+    height: 400px;
+    width: 30%;
+    margin: 10px 0 10px auto;
+
+    /* DEBUG */
+    background-color: red;
+    color:white;
+    text-align: center;
+    line-height: 400px;
+}
+
+#flex-right1{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 30%;
+    margin: 10px auto 10px 0;
+
+    /* DEBUG */
+    background-color: yellow;
+}
+
+.title1{
+    height: 200px;
+    width: 100%;
+    
+    /* DEBUG */
+    background-color: orange;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+
+.para1{
+    height: 200px;
+    width: 100%;
+    
+    /* DEBUG */
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    
+}
+
+/* Main Section 2 */
+
+#flex-block2{
+    display: flex;
+    height: 420px;
+
+    /* DEBUG */
+    background-color: blue;
+    /* margin-bottom: 1px; */
+}
+
+#flex-left2{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 30%;
+    margin: 10px 0 10px auto;
+
+    /* DEBUG */
+    background-color: yellow;
+}
+
+.title2{
+    height: 200px;
+    width: 100%;
+
+     /* DEBUG */
+    background-color: orange;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+
+.para2{
+    height: 200px;
+    width: 100%;
+
+     /* DEBUG */
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+
+.right2{
+    height: 400px;
+    width: 30%;
+    margin: 10px auto 10px 0;
+    
+    /* DEBUG */
+    
+    background-color: red;
+    color:white;
+    text-align: center;
+    line-height: 400px;
+}
+
+/* Main Section 3 */
+
+#flex-block3{
+    display: flex;
+    height: 420px;
+
+    /* DEBUG */
+    background-color: blue;
+    /* margin-bottom: 1px; */
+}
+
+.left3{
+    height: 400px;
+    width: 30%;
+    margin: 10px 0 10px auto;
+
+    /* DEBUG */
+    background-color: red;
+    color:white;
+    text-align: center;
+    line-height: 400px;
+}
+
+#flex-right3{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 30%;
+    margin: 10px auto 10px 0;
+
+    /* DEBUG */
+    background-color: yellow;
+}
+
+.title3{
+    height: 200px;
+    width: 100%;
+
+     /* DEBUG */
+    background-color: orange;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+
+.para3{
+    height: 200px;
+    width: 100%;
+
+     /* DEBUG */
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+
+/* Main Section 4 */
+
+#flex-block4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+
+
+    /* DEBUG */
+    background-color: blue;
+    /* margin-bottom: 1px; */
+}
+
+#flex-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 60%;
+    margin: 10px auto 0 auto;
+
+    /* DEBUG */
+    background-color:red;
+}
+
+.title4{
+    height: 25px;
+    width: 30%;
+    margin: 0px auto;
+    
+
+    /* DEBUG */
+    background-color:yellow;
+    color: red;
+    text-align: center;
+    line-height: 25px;
+}
+
+.para4{
+    height: 25px;
+    width: 30%;
+    margin: 1px auto;
+
+    /* DEBUG */
+    background-color:yellow;
+    color: red;
+    text-align: center;
+    line-height: 25px;
+}
+
+.middle{
+    height: 100px;
+    width: 60%;
+    margin: 0px auto;
+
+    /* DEBUG */
+    background-color:yellow;
+    color: red;
+    text-align: center;
+    line-height: 100px;
+}
+
+#flex-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 60%;
+    margin: 0px auto 10px auto;
+
+    /* DEBUG */
+    background-color:green;
+}
+
+.title5{
+    height: 25px;
+    width: 30%;
+    margin: 1px auto;
+
+    /* DEBUG */
+    background-color:yellow;
+    color: red;
+    text-align: center;
+    line-height: 25px;
+}
+
+.bottom-button{
+    height: auto;
+    width: 30%;
+    margin: 1px auto;
+
+    /* DEBUG */
+    color: red;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+/* Footer Top Rules */
+
+#footer-top{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    /* margin: 1px; */
+
+
+    /* DEBUG */
+    background-color: black
+}
+
+#flex-footer1{
+    display: flex;
+    justify-content: flex-start;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+
+    /* DEBUG */
+    background-color: red;
+    height: 80%;
+    width: 80%;
+    /* margin-bottom: 1px; */
+}
+
+/* Left Column*/
+
+.left-column{
+    /* DEBUG */
+     background-color: green;
+     margin-bottom: 1px;
+     height: 100%;
+     width: 20%;
+}
+
+.title6{
+    /* DEBUG */
+     background-color: red;
+     margin-bottom: 1px;
+     color: white;
+     line-height: 50px;
+}
+
+/* List 1 */
+
+.list1{
+    width: 20%;
+    padding: 10px 20px;
+    list-style-type: none;
+
+     /* DEBUG */
+     background-color: yellow;
+}
+
+li{
+    padding-top: 15px;
+}
+
+/* List 2 */
+    
+.list2{
+    width: 20%;
+    padding: 10px 20px;
+    list-style-type: none;
+
+     /* DEBUG */
+     background-color: green;
+}
+
+/* List 3 */
+
+.list3{
+    width: 20%;
+    padding: 10px 20px;
+    list-style-type: none;
+
+     /* DEBUG */
+     background-color: yellow;
+}
+
+/* List 4 */
+
+.list4{
+    width: 20%;
+    padding: 10px 20px;
+    list-style-type: none;
+    
+    /* DEBUG */
+     background-color: green;
+}
+
+/* Footer Bottom Rules */
+
+#flex-footer2{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    
+    /* DEBUG */
+    background-color: black;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 80%;
+    border-top: 1px solid white;
+
+    /* DEBUG */
+    background-color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
